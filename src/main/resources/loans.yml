@@ -1,0 +1,15 @@
+#HERE ARE OUR DB PROPERTIES and Server port  WE DON'T WANT TO EXTERNALIZE THAT WE NEED TO DELETE IT
+build:
+  version: "1.0.0"
+#Creating a prefix for reading the enivornment properties
+#A pojo class will be created for this to read the properties
+
+
+accounts:
+  message: "Welcome to EazyBank loans related local APIs "
+  contactDetails:
+    name: "John Doe - Developer"
+    email: "john@eazybank.com"
+  onCallSupport:
+    - (555) 555-1234
+    - (555) 523-134

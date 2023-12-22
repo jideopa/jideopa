@@ -13,8 +13,8 @@ spring:
     config:
       server:
         git:
-          uri: "https://github.com/eazybytes/eazybytes-config.git"
-          default-label: main # the github default branch
+          uri: "https://github.com/jideopa/jideopa.git"
+          default-label: master # the github default branch
           timeout: 5 # exception should be display if the server is not connecting to github
           clone-on-start: true   #To start clone the repo at the start of the project
           force-pull: true # By mentioning this force-pull as true. We are telling to override all the local changes whenever you are trying to start or restart our config server. This will make sure your config server always reading the properties from the master location which is GitHub repo.
