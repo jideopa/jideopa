@@ -1,0 +1,12 @@
+#We do not need the spring profile anymore since we are your SPRING CLOUD CONFIGURATION
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to EazyBank accounts related production APIs "
+  contactDetails:
+    name: "Reine Aishwarya - Product Owner"
+    email: "aishwarya@eazybank.com"
+  onCallSupport:
+    - (453) 392-4829
+    - (236) 203-0384
